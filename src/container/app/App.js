@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from "./App.module.scss";
-import CardList from "../../components/BookList";
 import Header from "../../components/Header";
+import BookList from '../../components/BookList';
 
 function App() {
   return (
     <main>
-      <h1>Bookworm</h1>
+      <Header />
+      <BookList />
     </main>
   );
 }
