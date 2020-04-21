@@ -1,14 +1,16 @@
 import firebase from "firebase";
 
-const firebaseConfig = {
-apiKey: "AIzaSyCAM9YrdvZD1WNi9-1OUkUPeTxxKS6emaU",
-authDomain: "bookworm-bea6b.firebaseapp.com",
-databaseURL: "https://bookworm-bea6b.firebaseio.com",
-projectId: "bookworm-bea6b",
-storageBucket: "bookworm-bea6b.appspot.com",
-messagingSenderId: "560491841960",
-appId: "1:560491841960:web:cd774f42657d83ead3359d"
+// Your web app's Firebase configuration
+var firebaseConfig = {
+apiKey: "AIzaSyDRMrfwyUz70KcVF5pbR2K7MTFPpaL2HhI",
+authDomain: "bookworm-78aea.firebaseapp.com",
+databaseURL: "https://bookworm-78aea.firebaseio.com",
+projectId: "bookworm-78aea",
+storageBucket: "bookworm-78aea.appspot.com",
+messagingSenderId: "824817346224",
+appId: "1:824817346224:web:1a87c33d8c675b27637d75"
 };
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 export const firestore = firebase.firestore();

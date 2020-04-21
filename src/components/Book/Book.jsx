@@ -6,9 +6,9 @@ class Book extends Component {
         const bookData = this.props.bookData;
         return (
             <section className={styles.book}>
+                <img src={bookData.image} alt=""></img>
                 <h3>{bookData.title}</h3>
                 <p>by {bookData.author}</p>
-                <p>Number of Pages: {bookData.pagecount}</p>
             </section>
         )
     }
