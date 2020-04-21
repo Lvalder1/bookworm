@@ -4,7 +4,7 @@ This project was created using React and uses a Firebase database to display inf
 
 ## Running The Project
 
-The project is being hosted at:  
+The project is being hosted at: https://bookworm-78aea.web.app/ 
 
 ## Prerequisites
 
